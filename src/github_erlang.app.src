@@ -1,0 +1,15 @@
+{application, github_erlang,
+  [
+    {description, "Github API implementation for Erlang"},
+    {vsn, "0.0.1"},
+    {registered, []},
+    {applications, [
+      kernel,
+      stdlib,
+      ssl,
+      ibrowse,
+      jsx
+    ]},
+    {mod, {github_erlang_app, []}},
+    {env, []}
+  ]}.
