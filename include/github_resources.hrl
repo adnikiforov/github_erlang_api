@@ -10,3 +10,7 @@
 
 %% Absolute URL base
 -define(GITHUB_BASE_URL, "https://api.github.com/").
+
+%% Rate limits
+%% @see https://developer.github.com/v3/rate_limit/
+-define(GITHUB_RATE_LIMITS_GET, "rate_limit").
