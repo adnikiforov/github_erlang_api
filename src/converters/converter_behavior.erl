@@ -9,4 +9,4 @@
 -module(converter_behavior).
 -author("a.d.nikiforov@gmail.com").
 
--callback convert(Data :: nonempty_string()) -> term().
+-callback convert(Data :: nonempty_string()) -> term() | list(term()).
